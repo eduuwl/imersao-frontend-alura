@@ -75,6 +75,8 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    background: none;
+    color: #b3b3b3;
 }
 
 .library .library_button .fa {
