@@ -67,7 +67,7 @@ body {
 .library .library_button {
     display: flex;
     margin-right: 10px;
-    color: 0px;
+    border: 0px;
     font-size: 14px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
@@ -75,7 +75,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
-    background: none;
+    background: transparent;
     color: #b3b3b3;
 }
 
@@ -90,4 +90,3 @@ body {
 .library .library_content .fa-plus {
     margin: 24px 10px;
 }
-
