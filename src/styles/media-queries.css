@@ -1,5 +1,44 @@
 @media screen and (max-width: 1015px) {
     .offer__list-item {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      position: static;
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .main-container {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .header_search {
+      width: auto;
+      margin-left: 0;
+    }
+    
+    .offer__list-item,
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header_navigation {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header_search {
+      margin: 8px 0;
+    }
+  
+    .disclaimer-premium {
+      padding: 10px 20px;
+    }
+  }
+  
